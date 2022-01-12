@@ -49,6 +49,11 @@ main {
   align-items: flex-start;
 }
 
+.space-checkbox {
+    display: flex;
+    flex-direction: column;   
+}
+
 #label-content {
   display: flex;
   flex-direction: column;
@@ -60,7 +65,7 @@ main {
   align-items: flex-start;
   width: 50%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-content: space-around;
 }
 
 .rating {
@@ -78,4 +83,21 @@ main {
 
 #teste1 h1 {
   align-self: center;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn {
+    flex-grow: 1;
+}
+
+hr {
+    
+}
+
+footer {
+    text-align: center;
 }

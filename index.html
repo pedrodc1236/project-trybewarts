@@ -16,7 +16,7 @@
     <form class="trybewarts-login" action="">
       <input type="email" name="email" placeholder="Email" id="form" />
       <input type="password" name="password" placeholder="Senha" id="input-password" />
-      <button id="btn-login" type="submit">Entrar</button>
+      <button id="btn-login">Entrar</button>
     </form>
   </header>
   <main>
@@ -93,7 +93,7 @@
           </div>
           <div>
             <input type="radio" name="rate" id="rate-a" value="4">
-            <label for="rate-a">4 </label>
+            <label for="rate-a"> 4</label>
           </div>
           <div>
             <input type="radio" name="rate" id="rate-a" value="5">
@@ -125,13 +125,26 @@
         <label class="textarea">Deixe seu comentário:</label>
         <textarea name="textarea" id="id-textarea" maxlength="500" cols="30" rows="10"></textarea>
         <br>
+        <div>
+          <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+          <input type="checkbox" name="information" id="agreement">
+        </div>
+        <br>
+        <div>
+          <button id="submit-btn" type="submit">Enviar</button>
+        </div>
+          
       </form>
     </section>
 
     <section class="container-2">
       <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="" />
     </section>
-  </main>
+  </main><br>
+
+  <footer>
+    <p>Direitos reservados à Trybewarts©</p>
+  </footer>
 
   <script src="/script.js"></script>
 </body>

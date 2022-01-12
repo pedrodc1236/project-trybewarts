@@ -15,3 +15,19 @@ function verification() {
 }
 
 verification();
+
+//Habilitando e Desabilitanto o Botão enviar do formúlario
+
+const captureBtnForm = document.querySelector("#submit-btn");
+
+const captureCheckbox = document.querySelector("#agreement")
+
+function btnForm() {
+     if (captureCheckbox.checked !== true) {
+        captureBtnForm.disabled = true;
+    } else if (captureCheckbox.checked === true) {
+        captureBtnForm.disabled = false;
+    }
+}
+
+btnForm();

@@ -69,6 +69,8 @@
 }
 .rating{
     display: flex;
-    
    
+}
+#id-textarea{
+    resize: none;
 }

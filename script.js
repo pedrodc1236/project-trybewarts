@@ -22,12 +22,12 @@ const captureBtnForm = document.querySelector("#submit-btn");
 
 const captureCheckbox = document.querySelector("#agreement")
 
-function btnForm() {
-     if (captureCheckbox.checked !== true) {
-        captureBtnForm.disabled = true;
-    } else if (captureCheckbox.checked === true) {
-        captureBtnForm.disabled = false;
-    }
-}
+captureBtnForm.disabled = true;
 
-btnForm();
+captureCheckbox.addEventListener("click", function btnForm() {
+    if (captureCheckbox.checked !== true) {
+       captureBtnForm.disabled = true;
+   } else {
+       captureBtnForm.disabled = false;
+   }
+});

@@ -28,7 +28,29 @@
         height: 500px;
     }
 
-#label-family{
-    display:flex ;
-    flex-direction:column;
-}
+    .family-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #teste {
+        display: flex;
+        justify-content: space-around;        
+    }
+
+    #teste1 {
+       
+    }
+
+    .container-2 {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .container-1 {
+        display: flex;
+        width: 50%;
+        align-items: flex-start;
+    }
+

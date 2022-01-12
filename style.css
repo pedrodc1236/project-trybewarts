@@ -54,3 +54,16 @@
         align-items: flex-start;
     }
 
+#label-content{
+       display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+}
+.contents{
+    display: flex;
+         align-items: flex-start;
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content:space-between
+}

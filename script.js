@@ -1,33 +1,33 @@
-//Confirindo o login e a senha
+// Confirindo o login e a senha
 
-const captureBtn = document.querySelector("#btn-login");
-const captureEmail = document.querySelector("#form");
-const capturePassword = document.querySelector("#input-password");
+const captureBtn = document.querySelector('#btn-login');
+const captureEmail = document.querySelector('#form');
+const capturePassword = document.querySelector('#input-password');
 
 function verification() {
-    captureBtn.addEventListener("click", function(){
-        if (captureEmail.value === "tryber@teste.com" && capturePassword.value === "123456") {
-            alert("Olá, Tryber!")
-        } else {
-            alert("Email ou senha inválidos.")
-        }
-    })
+  captureBtn.addEventListener('click', () => {
+    if (captureEmail.value === 'tryber@teste.com' && capturePassword.value === '123456') {
+      alert('Olá, Tryber!');
+    } else {
+      alert('Email ou senha inválidos.');
+    }
+  });
 }
 
 verification();
 
-//Habilitando e Desabilitanto o Botão enviar do formúlario
+// Habilitando e Desabilitanto o Botão enviar do formúlario
 
-const captureBtnForm = document.querySelector("#submit-btn");
+const captureBtnForm = document.querySelector('#submit-btn');
 
-const captureCheckbox = document.querySelector("#agreement")
+const captureCheckbox = document.querySelector('#agreement');
 
 captureBtnForm.disabled = true;
 
-captureCheckbox.addEventListener("click", function btnForm() {
-    if (captureCheckbox.checked !== true) {
-       captureBtnForm.disabled = true;
-   } else {
-       captureBtnForm.disabled = false;
-   }
+captureCheckbox.addEventListener('click', () => {
+  if (captureCheckbox.checked !== true) {
+    captureBtnForm.disabled = true;
+  } else {
+    captureBtnForm.disabled = false;
+  }
 });

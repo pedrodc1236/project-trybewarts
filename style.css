@@ -67,3 +67,8 @@
         flex-wrap: wrap;
         justify-content:space-between
 }
+.rating{
+    display: flex;
+    
+   
+}

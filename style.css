@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;500;600;700;800&family=Montserrat&display=swap');
   *{
     font-family: 'Inknut Antiqua', serif;
@@ -134,3 +135,108 @@
            hr{
              height: 4px;
            }
+=======
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-self: center;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+  align-self: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.family-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#teste2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-2 {
+  display: flex;
+  align-items: center;
+}
+
+.container-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.space-checkbox {
+    display: flex;
+    flex-direction: column;   
+}
+
+#label-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contents {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.rating {
+  display: flex;
+}
+
+#id-textarea {
+  resize: none;
+}
+
+#teste1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#teste1 h1 {
+  align-self: center;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn {
+    flex-grow: 1;
+}
+
+hr {
+    
+}
+
+footer {
+    text-align: center;
+}
+>>>>>>> 2dca83cf5733b7ace29725a2e6d5ea3ef62309d5
